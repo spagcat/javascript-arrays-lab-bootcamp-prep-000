@@ -55,4 +55,11 @@ function removeLastKitten() {
   newKittens.pop();
   return newKittens;
 }
+
+kittens = ['Milo', 'Otis', 'Garfield'];
+
+function removeFirstKitten() {
+  var newKittens = [...kittens];
+  newKittens.shift();
+  return newKittens;
 }
