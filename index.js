@@ -6,38 +6,42 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
 }
 
-  kittens;
-
 destructivelyAppendKitten('Ralph');
+
+kittens = ['Milo', 'Otis', 'Garfield'];
 
 function destructivelyPrependKitten(name) {
   kittens.unshift(name);
 }
 
-  kittens;
-
 destructivelyPrependKitten('Bob');
 
+kittens = ['Milo', 'Otis', 'Garfield'];
+
 function destructivelyRemoveLastKitten() {
-  kittens;
   kittens.pop();
 }
 
+kittens = ['Milo', 'Otis', 'Garfield'];
+
 function destructivelyRemoveFirstKitten() {
-  kittens;
   kittens.shift();
 }
 
+kittens = ['Milo', 'Otis', 'Garfield'];
+
 function appendKitten(name) {
-  kittens;
   var appendKittens = [kittens, ...name];
 }
 
 appendKitten('Broom');
 
+kittens = ['Milo', 'Otis', 'Garfield'];
+
 function prependKitten(name) {
-  kittens;
   var prependKittens = kittens.unshift(name);
 }
 
 prependKitten('Arnold');
+
+kittens = ['Milo', 'Otis', 'Garfield'];
