@@ -32,7 +32,7 @@ kittens = ['Milo', 'Otis', 'Garfield'];
 
 function appendKitten(name) {
   var newKittens = kittens;
-  newKittens = kittens.push(name);
+  newKittens.push(name);
 }
 
 appendKitten('Broom');
@@ -40,7 +40,8 @@ appendKitten('Broom');
 kittens = ['Milo', 'Otis', 'Garfield'];
 
 function prependKitten(name) {
-  var prependKittens = kittens.unshift(name);
+  var newKittens = kittens;
+  newKittens.unshift(name);
 }
 
 prependKitten('Arnold');
