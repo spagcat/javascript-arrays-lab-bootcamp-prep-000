@@ -32,6 +32,7 @@ kittens = ['Milo', 'Otis', 'Garfield'];
 
 function appendKitten(name) {
   var appendKittens = kittens.push(name);
+  return appendKittens
 }
 
 appendKitten('Broom');
