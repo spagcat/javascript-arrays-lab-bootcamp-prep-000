@@ -27,12 +27,15 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
+  var originalkittens = kittens;
   var appendKittens = kittens.push(name);
+  kittens = originalKittens;
 }
 
 appendKitten('Broom');
 
 function prependKitten(name) {
+  kittens;
   var prependKittens = kittens.unshift(name);
 }
 
